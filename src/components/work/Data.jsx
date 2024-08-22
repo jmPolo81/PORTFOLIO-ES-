@@ -92,7 +92,7 @@ export const projectsData = [
         image: weatherSearch,
         title: "Weather Search",
         category: "frontend",
-        projectLink: "https://jmpolo-wheater-search.netlify.app/",
+        projectLink: "https://jmpolo-weather-search.netlify.app/",
         description: "Aplicación web para chequear temperaturas de diferentes ciudades usando la API Openweathermap.",
         tools: [
             "Javascript",
