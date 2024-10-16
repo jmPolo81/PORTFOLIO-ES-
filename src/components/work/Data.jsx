@@ -5,6 +5,7 @@ import imagesSearch from '../../assets/imagesSearch.jpg'
 import weatherSearch from '../../assets/weatherSearch.jpg'
 import cryptoSearch from '../../assets/cryptoSearch.jpg'
 import recipesSearch from '../../assets/recipesSearch.jpg'
+import guitarLa from '../../assets/guitarLa.jpg'
 
 
 export const projectsData = [
@@ -97,6 +98,22 @@ export const projectsData = [
         tools: [
             "Javascript",
             "CSS",
+            "HTML5"
+        ]
+
+    },
+    {
+        id: 7,
+        image: guitarLa,
+        title: "GuitarLa",
+        category: "frontend",
+        projectLink: "https://guitarlajmp.netlify.app/",
+        description: "Web que simula una tienda de compra de guitarras con carrito y con LocalStorage",
+        tools: [
+            "React",
+            "Javascript",
+            "CSS",
+            "Bootstrap",
             "HTML5"
         ]
 
