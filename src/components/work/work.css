@@ -21,8 +21,9 @@
 }
 
 .work__container {
-    grid-template-columns: repeat(2, max-content);
-    gap: 3rem;
+    display: grid; /* Asegúrate de que esto esté presente */
+    grid-template-columns: repeat(3, 1fr); /* Cambiado a 3 columnas */
+    gap: 3rem; /* Espaciado entre columnas */
     justify-content: center;
 }
 

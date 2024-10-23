@@ -6,6 +6,8 @@ import weatherSearch from '../../assets/weatherSearch.jpg'
 import cryptoSearch from '../../assets/cryptoSearch.jpg'
 import recipesSearch from '../../assets/recipesSearch.jpg'
 import guitarLa from '../../assets/guitarLa.jpg'
+import quickOrder from '../../assets/quickOrder.jpg'
+
 
 
 export const projectsData = [
@@ -114,6 +116,22 @@ export const projectsData = [
             "Javascript",
             "CSS",
             "Bootstrap",
+            "HTML5"
+        ]
+
+    },
+    {
+        id: 8,
+        image: quickOrder,
+        title: "QuickOrder&Tip",
+        category: "frontend",
+        projectLink: "https://quick-order-tip.netlify.app",
+        description: "App para realizar pedidos y pagos inmediatos con su porcentaje de propina.",
+        tools: [
+            "React",
+            "Javascript",
+            "CSS",
+            "Tailwind",
             "HTML5"
         ]
 
