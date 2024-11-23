@@ -4,15 +4,12 @@ import petAppointment from '../../assets/Pet Appointment.jpg'
 import imagesSearch from '../../assets/imagesSearch.jpg'
 import weatherSearch from '../../assets/weatherSearch.jpg'
 import cryptoSearch from '../../assets/cryptoSearch.jpg'
-import recipesSearch from '../../assets/recipesSearch.jpg'
 import guitarLa from '../../assets/guitarLa.jpg'
 import quickOrder from '../../assets/quickOrder.jpg'
-
+import calorie_tracker from '../../assets/calorie_tracker.jpg'
 
 
 export const projectsData = [
-    
-
     {
         id: 1,
         image: todo,
@@ -62,14 +59,16 @@ export const projectsData = [
 
     {
         id: 4,
-        image: recipesSearch,
-        title: "Recetas fáciles",
+        image: calorie_tracker,
+        title: "Calorie Tracker",
         category: "frontend",
-        projectLink: "https://jmpolo-recetario.netlify.app/",
-        description: "Aplicación web para buscar recetas usando la API The Meal DB.",
+        projectLink: "https://calorie-tracker-byjmp.netlify.app/",
+        description: "Aplicación web para llevar un control de calorias gastadas y consumidas.",
         tools: [
+            "React",
             "Javascript",
             "CSS",
+            "TailWind",
             "HTML5"
         ]
 
